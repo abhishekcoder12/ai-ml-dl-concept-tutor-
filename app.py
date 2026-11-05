@@ -93,7 +93,7 @@ if st.button("🚀 Run Comprehensive Tutor Analysis"):
                 st.session_state.chat_memory.append(f"Query: {concept_query} ({target_level})")
                 
                 with st.expander("💬 View Session Chat History & Memory Context"):
-                    for idx, msg in enumerate(st.session_state.chat_memory[-5:]:
+                    for idx, msg in enumerate(st.session_state.chat_memory[-5:]):
                         st.text(f"{idx+1}. {msg}")
 
                 st.markdown("#### Self-Attention Weight Matrix")
